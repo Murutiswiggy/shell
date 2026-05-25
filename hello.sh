@@ -1,2 +1,4 @@
 #!/bin/bash
-echo "Hi"
+
+name="Maruti"
+echo "Hello $name"
