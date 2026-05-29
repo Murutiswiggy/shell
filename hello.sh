@@ -3,8 +3,8 @@
 name="Maruti"
 echo "${name}"
 
-coures="linux shell scripting"
-echo "I am learing ${coures}"
+course="linux shell scripting"
+echo "I am learing ${course}"
 
 
 
