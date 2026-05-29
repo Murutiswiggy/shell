@@ -1,11 +1,10 @@
 #!/bin/bash
 
 name="Maruti"
-echo name
-echo "$name"
+echo "${name}"
 
 coures="linux shell scripting"
-echo "I am learing $coures"
+echo "I am learing ${coures}"
 
 
 
