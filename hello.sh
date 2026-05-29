@@ -19,3 +19,9 @@ echo "total is ${sum}"
 
 read -p "hyerabad: " city
 echo "I am staying in ${city}"
+
+nuber=20
+if [${number} -gt 10 ]
+then
+echo "number is greater then 10"
+fi
