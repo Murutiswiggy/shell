@@ -8,3 +8,6 @@ echo "I am learing ${course}"
 
 today=$(date)
 echo "${today}"
+
+user=$(whoami)
+echo "current user is {user}"
