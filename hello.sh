@@ -1,7 +1,10 @@
 #!/bin/bash
 
 name="Maruti"
-echo "Hello $name"
+echo name
+echo "$name"
 
-age=25
-echo my age is $age
+
+
+# age=25
+# echo "my age is $age"
