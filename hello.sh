@@ -15,4 +15,4 @@ echo "current user is ${user}"
 a=10
 b=10
 sum=$((a+b))
-echo= "total is ${sum}"
+echo "total is ${sum}"
