@@ -10,4 +10,4 @@ today=$(date)
 echo "${today}"
 
 user=$(whoami)
-echo "current user is {user}"
+echo "current user is ${user}"
