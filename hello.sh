@@ -17,5 +17,5 @@ b=10
 sum=$((a+b))
 echo "total is ${sum}"
 
-read -p "hyerabad: " name
-echo "I am staying in ${name}"
+read -p "hyerabad: " city
+echo "I am staying in ${city}"
