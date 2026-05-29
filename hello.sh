@@ -4,6 +4,9 @@ name="Maruti"
 echo name
 echo "$name"
 
+coures="linux shell scripting"
+echo "$coures"
+
 
 
 # age=25
