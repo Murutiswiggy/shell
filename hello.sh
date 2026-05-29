@@ -5,7 +5,7 @@ echo name
 echo "$name"
 
 coures="linux shell scripting"
-echo "$coures"
+echo "I am learing $coures"
 
 
 
