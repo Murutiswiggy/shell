@@ -18,4 +18,4 @@ sum=$((a+b))
 echo "total is ${sum}"
 
 read -p "hyd:" name
-echo "I am staying in ${read}"
+echo "I am staying in ${name}"
