@@ -6,7 +6,5 @@ echo "${name}"
 course="linux shell scripting"
 echo "I am learing ${course}"
 
-
-
-# age=25
-# echo "my age is $age"
+today=$(date)
+echo "${today}"
