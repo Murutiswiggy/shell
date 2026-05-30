@@ -56,7 +56,7 @@ then
                   echo "fail"
                    fi
 
- read -p "Enter your number: " num
+read -p "Enter your number: " num
 
 if [ ${num} -eq 10 ]
   then
@@ -64,3 +64,12 @@ if [ ${num} -eq 10 ]
      else 
       echo "number not equl to 10"
        fi
+
+read -p "Enter you city: " city
+
+fi [ "${city}" = "Hyderabad" ]
+ then
+  echo "you are form Hyderabad"
+   else 
+     echo "you are another city"
+      fi  
