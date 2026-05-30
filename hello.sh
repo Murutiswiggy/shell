@@ -30,7 +30,7 @@ fi
 
 if [ $(number)-lt 50 ]
 then 
- echo "number less than 80"
+ echo "number is less than 80"
 else
- echo number is greater than 40"
-fi
+ echo "number is greater thean 30"
+ fi
