@@ -106,3 +106,7 @@ echo "i am learing script" > test2.txt
      cat "${file}"
       done
 
+
+greet () {
+  echo "hello maruti"
+}
