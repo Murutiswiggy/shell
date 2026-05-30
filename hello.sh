@@ -38,7 +38,7 @@ else
  echo "number is greater than 80"
  fi
 
- marks=75
+ read -p "80: " marks
 
 if [ ${marks} -gt 90 ]
 then
