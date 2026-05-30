@@ -35,5 +35,5 @@ if [ ${number} -lt 50 ]
 then 
  echo "number is less than 80"
 else
- echo "number is greater thean 80"
+ echo "number is greater than 80"
  fi
