@@ -73,3 +73,11 @@ if [ "${city}" = "Hyderabad" ]
    else 
      echo "you are another city"
        fi 
+
+
+for i in 1 2 3 4 5 6 
+ do 
+  echo "number is "${i}"
+    done 
+
+    
