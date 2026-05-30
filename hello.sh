@@ -67,9 +67,9 @@ if [ ${num} -eq 10 ]
 
 read -p "Enter you city: " city
 
-fi [ "${city}" = "Hyderabad" ]
+if [ "${city}" = "Hyderabad" ]
  then
   echo "you are form Hyderabad"
    else 
      echo "you are another city"
-      fi  
+       fi 
