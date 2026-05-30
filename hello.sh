@@ -89,3 +89,10 @@ for i in {1..10}
  do 
   echo "number is ${i}"
    done 
+
+touch test.txt test1.txt test2.txt
+
+for files in *.txt
+ do
+  echo "file name ${files}"
+   done
