@@ -29,55 +29,54 @@ then
 fi
 
 
-number=50
+# number=50
 
-if [ ${number} -lt 80 ]
-then 
- echo "number is less than 80"
-else
- echo "number is greater than 80"
- fi
+# if [ ${number} -lt 80 ]
+# then 
+#  echo "number is less than 80"
+# else
+#  echo "number is greater than 80"
+#  fi
 
- read -p "Enter your marks: " marks
+#  read -p "Enter your marks: " marks
 
-if [ ${marks} -gt 90 ]
-then
-  echo "grade A"
-   elif [ ${marks} -gt 70 ]
-    then
-     echo "grade B"
-       elif [ ${marks} -gt 50 ]
-        then
-          echo "grade C"
-            elif [ ${marks} -gt 35 ]
-             then
-              echo "pass"
-                else 
-                  echo "fail"
-                   fi
+# if [ ${marks} -gt 90 ]
+# then
+#   echo "grade A"
+#    elif [ ${marks} -gt 70 ]
+#     then
+#      echo "grade B"
+#        elif [ ${marks} -gt 50 ]
+#         then
+#           echo "grade C"
+#             elif [ ${marks} -gt 35 ]
+#              then
+#               echo "pass"
+#                 else 
+#                   echo "fail"
+#                    fi
 
-read -p "Enter your number: " num
+# read -p "Enter your number: " num
 
-if [ ${num} -eq 10 ]
-  then
-    echo "number is equl to 10"
-     else 
-      echo "number not equl to 10"
-       fi
+# if [ ${num} -eq 10 ]
+#   then
+#     echo "number is equl to 10"
+#      else 
+#       echo "number not equl to 10"
+#        fi
 
-read -p "Enter you city: " city
+# read -p "Enter you city: " city
 
-if [ "${city}" = "Hyderabad" ]
- then
-  echo "you are form Hyderabad"
-   else 
-     echo "you are another city"
-       fi 
+# if [ "${city}" = "Hyderabad" ]
+#  then
+#   echo "you are form Hyderabad"
+#    else 
+#      echo "you are another city"
+#        fi 
 
 
 for i in 1 2 3 4 5 6 
  do 
-  echo "number is "${i}"
+  echo "number is ${i}"
     done 
 
-    
