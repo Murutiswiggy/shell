@@ -110,3 +110,5 @@ echo "i am learing script" > test2.txt
 greet () {
   echo "hello maruti"
 }
+
+greet
