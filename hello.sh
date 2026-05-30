@@ -121,9 +121,11 @@ read -p " when did you start: " date
 if [ "${name}" = "Maruti" ]
   then 
    echo "you name is correct"
-    elif [ "${coures}" = "Devops" ]
+      elif [ "${coures}" = "Devops" ]
+      then
       echo "you coures is correct"
        elif [ "${date}" = "4-05-2026" ]
+       then
         echo "from start date"
          else 
          echo "your details are wrong"
