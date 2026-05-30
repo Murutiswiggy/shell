@@ -27,6 +27,3 @@ if [ ${number} -gt 10 ]
 then
   echo "number is greater than 10"
 fi
-
-name="swiggy"
-echo "${name}
