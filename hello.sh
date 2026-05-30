@@ -125,5 +125,6 @@ if [ "${name}" = "Maruti" ]
       echo "you coures is correct"
        elif [ "${date}" = "4-05-2026" ]
         echo "from start date"
-         else "your details are wrong"
+         else 
+         echo "your details are wrong"
          fi
