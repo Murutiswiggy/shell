@@ -43,15 +43,24 @@ else
 if [ ${marks} -gt 90 ]
 then
   echo "grade A"
-elif [ ${marks} -gt 70 ]
-then
- echo "grade B"
-elif [ ${marks} -gt 50 ]
-then
- echo "grade C"
-elif [ ${marks} -gt 35 ]
-then
- echo "pass"
-else 
- echo "fail"
-fi
+   elif [ ${marks} -gt 70 ]
+    then
+     echo "grade B"
+       elif [ ${marks} -gt 50 ]
+        then
+          echo "grade C"
+            elif [ ${marks} -gt 35 ]
+             then
+              echo "pass"
+                else 
+                  echo "fail"
+                   fi
+
+ read -p "Enter your number: " num
+
+if [ ${num} -eq 10 ]
+  then
+    echo "number is equl to 10"
+     else 
+      echo "number not equl to 10"
+       fi
