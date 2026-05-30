@@ -80,3 +80,7 @@ for i in 1 2 3 4 5 6
   echo "number is ${i}"
     done 
 
+for name in maruti rahul sita
+ do
+   echo "hello ${name}"
+     done
