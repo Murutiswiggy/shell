@@ -37,3 +37,21 @@ then
 else
  echo "number is greater than 80"
  fi
+
+ marks=75
+
+if [ ${marks} -ge 90 ]
+then
+  echo "grade A"
+elif [ ${marks} -ge 70 ]
+then
+ echo "grade B"
+elif [ ${marks} -ge 50 ]
+then
+ echo "grade C"
+elif [ ${marks} -ge 35 ]
+then
+ echo "pass"
+else 
+ echo "fail"
+fi
