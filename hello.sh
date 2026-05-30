@@ -28,6 +28,9 @@ then
   echo "number is greater than 10"
 fi
 
+
+number=50
+
 if [ $(number)-lt 50 ]
 then 
  echo "number is less than 80"
