@@ -84,3 +84,8 @@ for name in maruti rahul sita
  do
    echo "hello ${name}"
      done
+
+for i in {1..10}
+ do 
+  echo "number is ${i}"
+   done 
