@@ -96,3 +96,10 @@ for files in *.txt
  do
   echo "file name ${files}"
    done
+
+
+   for file in *.txt
+    do
+    echo "==${file}=="
+     cat "${file}"
+      done
